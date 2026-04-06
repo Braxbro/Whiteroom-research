@@ -26,6 +26,8 @@ Eval scripts are in `scripts` and `scripts/eval/` - see `docs/model-specs.md` fo
 
 ## AI Use Acknowledgement
 
-The code used for this project was generated using Claude Sonnet 4.6 using Claude Code. Research methodology was designed alongside suggestions from Claude Opus 4.6 using Claude.ai. This research was spurred by a discussion with Claude Haiku using Claude.ai after I expressed confusion why prefix caching was standard, which led to a tangent into theoretical segmented/partitioned caching.
+The code used for this project, as well as the preliminary findings docs you will find here, were generated using Claude Sonnet 4.6 using Claude Code. 
+Research methodology was designed alongside suggestions from Claude Opus 4.6 using Claude.ai. 
+This research was spurred by a discussion with Claude Haiku using Claude.ai after I expressed confusion why prefix caching was standard, which led to a tangent into theoretical segmented/partitioned caching.
 
 Which then led to this. (Well, it led to the start of this. Then this led to this.)
