@@ -11,7 +11,7 @@ The short version: we set out to prove O(1) KV cache composition via semantic is
 
 Establishes the Whiteroom synthetic domain: typed-port entities, deterministic composition rules, 379K-parameter encoder-decoder transformer. Trained 50K steps from scratch. Achieves strong basic composition and attribution. Confirms the domain is learnable and the evaluation machinery works.
 
-→ See also: [whiteroom-spec.md](whiteroom-spec.md) for domain definition and [whiteroom-context.md](whiteroom-context.md) for research problem context.
+→ See also: [whiteroom-spec.md](whiteroom-spec.md) for domain definition and [whiteroom-context.md](whiteroom-context.md) for research problem context provided to Sonnet for implementation.
 
 ---
 
