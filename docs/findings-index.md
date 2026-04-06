@@ -20,7 +20,7 @@ Establishes the Whiteroom synthetic domain: typed-port entities, deterministic c
 
 Adds joint attribution training (which compound tokens came from which entity). Identifies and corrects two training distribution biases (unbalanced flag rates, flag co-occurrence). Multi-seed run (5 seeds) establishes reliable baselines.
 
-**stage4b-seed4** was produced at this stage (same architecture, same curriculum). It achieved anomalously high composition that motivated most of what followed. See [model-specs.md](model-specs.md).
+→ Results: [results/multiseed/](../results/multiseed/), [results/multiseed-unbalanced/](../results/multiseed-unbalanced/)
 
 ---
 
@@ -29,6 +29,8 @@ Adds joint attribution training (which compound tokens came from which entity). 
 
 Token and combination holdout tests confirm the model learns abstract compositional rules, not token-specific mappings. The property-append freeze test is introduced: can the decoder produce the correct compound when given a frozen base cache plus one new appended token? A "sibling" span-predictor model is trained to select which cache positions to freeze. Multi-seed analysis exposes a key limitation: post-hoc curriculum fine-tuning has a ceiling because the encoder already converged before curriculum training began.
 
+→ Results: [results/multiseed/](../results/multiseed/), [results/multiseed-unbalanced/](../results/multiseed-unbalanced/), [results/siblings-multiseed-compact/](../results/siblings-multiseed-compact/)
+
 ---
 
 ## Stage 4 — Curriculum Fine-Tuning (Post-Hoc)
@@ -36,7 +38,7 @@ Token and combination holdout tests confirm the model learns abstract compositio
 
 Mixed curriculum fine-tunes the Stage 2 checkpoints to improve property-append pickup. Achieves +33pp improvement on most seeds. Two-phase curriculum (Stage 4b) pushes further. Laggard seeds (2 and 3) remain stubborn — confirmed by Stage 4c extended training. Conclusion: post-hoc curriculum cannot fix encoder representations that entangled during pretraining.
 
-**Checkpoint released**: stage4b-seed4 (the jackpot; see above).
+**Checkpoint released**: stage4b-seed4 — this seed achieved anomalously high composition performance that motivated most of the subsequent research. Included in the main repository. Exact reproduction is not expected. See [model-specs.md](model-specs.md).
 
 → Results: [results/stage4/](../results/stage4/), [results/stage4b/](../results/stage4b/), [results/stage4c/](../results/stage4c/)
 
