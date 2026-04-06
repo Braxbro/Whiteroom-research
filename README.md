@@ -1,6 +1,6 @@
 # What is Whiteroom?
 
-I (with assistance from Claude Sonnet and Opus, plus moral support from Claude Haiku) trained a number of standard encoder-decoder transformers on a synthetic composition task inspired by the compound entity implementation paradigm often seen in Factorio mod development. (I also trained encoder-bridge-decoder transformers, however they did not offer any benefit over encoder-decoder transformers) In doing so, I found that models trained on well-defined composition tasks can swap out precomputed encoder representations (KV cache segments) from different contexts with zero accuracy loss. Current research consensus, and four frontier models additionally used as consensus aggregators, predicted that this would fail.
+I (with assistance from Claude Sonnet and Opus, plus moral support from Claude Haiku) trained a number of standard encoder-decoder transformers on a synthetic composition task inspired by the compound entity implementation paradigm often seen in Factorio mod development. (We also trained encoder-bridge-decoder transformers, however they did not offer any benefit over encoder-decoder transformers) In doing so, we found that models trained on well-defined composition tasks can swap out precomputed encoder representations (KV cache segments) from different contexts with zero accuracy loss. Current research consensus, and four frontier models additionally used as consensus aggregators, predicted that this would fail.
 
 It didn't.
 
