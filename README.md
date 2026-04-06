@@ -20,7 +20,7 @@ Requires PyTorch. Training scripts are in `scripts/stage{n}/`. Each stage (excep
 
 Eval scripts are in `scripts` and `scripts/eval/` - see `docs/model-specs.md` for exact hyperparams per stage.
 
-## AI Use Acknowledgement
+## AI Use Acknowledgement & Licensing
 
 The code used for this project was generated using Claude Sonnet 4.6 using Claude Code. Research methodology was designed alongside suggestions from Claude Opus 4.6 using Claude.ai. This research was spurred by a discussion with Claude Haiku using Claude.ai after I expressed confusion why prefix caching was standard, which led to a tangent into theoretical segmented/partitioned caching.
 
