@@ -11,7 +11,9 @@ As for the name Whiteroom itself, it came from the fact that I wanted to build a
 ## Repo Structure
 
 - `checkpoints/` - Model checkpoints I don't expect to be easily reproduceable. Currently only includes Stage 4b, seed 4 - the 'jackpot seed' that motivated many further stages of research chasing append-to-frozen capability.
-- `docs/` - A number of writeups, including records of frontier model predictions, an early lit review from Opus, the initial research context and specifications, and 16 findings files. (Sorry. I got carried away. It was a fun week.) `model-specs.md` can also be found here, containing the hyperparameters of all the models trained.
+- `docs/` - A number of writeups, including records of frontier model predictions, an early lit review from Opus, the initial research context and specifications, and 16 findings files. (Sorry. I got carried away. It was a fun week.) 
+  - `model-specs.md` can also be found here, containing the hyperparameters of all the models trained.
+  - For reading the findings, `findings-index.md` would be a good first stop.
 - `results/` - Raw JSON eval results.
 - `scripts/` - The scripts Sonnet made for model training, evaluation, and debugging.
 - `whiteroom/` - The main Whiteroom Python package implementing the synthetic domain and common utilities between each stage.
