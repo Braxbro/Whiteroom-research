@@ -1,0 +1,33 @@
+#!/bin/bash
+# Check Stage 5 training progress across all seeds.
+# Usage: bash check_stage5.sh [RUNDIR]
+RUNDIR=${1:-_agent/cache/runs/stage5}
+
+for seed in 1 2 3 4 5; do
+    dir="$RUNDIR/stage5-seed${seed}"
+    final="$dir/checkpoint_final.pt"
+    trans="$dir/checkpoint_phase1_transition.pt"
+
+    if [ -f "$final" ]; then
+        tag="DONE"
+    elif ps aux | grep -q "[t]rain_stage5.*seed $seed\b"; then
+        tag="running"
+    else
+        tag="stopped?"
+    fi
+
+    printf "seed %d [%-8s] " "$seed" "$tag"
+
+    [ -f "$trans" ] && printf "[ph1->ph2 saved] " || printf "                "
+
+    log="$dir/train_log.jsonl"
+    if [ -f "$log" ]; then
+        tail -1 "$log" | python3 -c "
+import sys, json
+d = json.loads(sys.stdin.read())
+print(f'step {d[\"step\"]:6d} ph{d[\"phase\"]} | total {d[\"total\"]:.4f} | curr {d[\"curr\"]:.4f}')
+" 2>/dev/null || echo "(parse error)"
+    else
+        echo "(no log yet)"
+    fi
+done
