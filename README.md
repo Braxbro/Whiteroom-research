@@ -4,6 +4,8 @@ I (with assistance from Claude Sonnet and Opus, plus moral support from Claude H
 
 It didn't.
 
+As for the name Whiteroom itself, it came from the fact that I wanted to build a white room parallel to the compound entity paradigm as my toy problem due to personal familiarity. Claude (both Opus and Sonnet) adopted it as a name "Whiteroom" and I never bothered correcting them. The name stuck. Sorry if the name overlaps with anyone else. I'm bad with names.
+
 **In short:** Compositional portability is an inherent property of encoder-decoder transformers trained on well-defined composition tasks, without any special architecture required. You can encode an input once, store the representation, and then substitute it in and out without recomputing it.
 
 ## Repo Structure
