@@ -1,0 +1,67 @@
+{
+  "1": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.9375309167305629,
+    "fresh_abc_seq_acc": 0.87,
+    "swap_right_seq_acc": 0.88,
+    "swap_right_vs_fresh": 1.0114942528735633,
+    "fresh_abd_seq_acc": 0.8766666666666667,
+    "swap_full_seq_acc": 0.8866666666666667,
+    "swap_full_vs_fresh": 1.0114068441064639,
+    "ab_cos_full": 0.9375309167305629,
+    "cd_cos": 0.72008625994126
+  },
+  "2": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.9255125820636749,
+    "fresh_abc_seq_acc": 0.9033333333333333,
+    "swap_right_seq_acc": 0.8733333333333333,
+    "swap_right_vs_fresh": 0.966789667896679,
+    "fresh_abd_seq_acc": 0.86,
+    "swap_full_seq_acc": 0.8733333333333333,
+    "swap_full_vs_fresh": 1.0155038759689923,
+    "ab_cos_full": 0.9255125820636749,
+    "cd_cos": 0.7025192871689796
+  },
+  "3": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.8993174133698145,
+    "fresh_abc_seq_acc": 0.8533333333333334,
+    "swap_right_seq_acc": 0.7766666666666666,
+    "swap_right_vs_fresh": 0.9101562499999999,
+    "fresh_abd_seq_acc": 0.8033333333333333,
+    "swap_full_seq_acc": 0.76,
+    "swap_full_vs_fresh": 0.946058091286307,
+    "ab_cos_full": 0.8993174133698145,
+    "cd_cos": 0.7809038233757019
+  },
+  "4": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.894715660015742,
+    "fresh_abc_seq_acc": 0.8333333333333334,
+    "swap_right_seq_acc": 0.7166666666666667,
+    "swap_right_vs_fresh": 0.86,
+    "fresh_abd_seq_acc": 0.7533333333333333,
+    "swap_full_seq_acc": 0.7766666666666666,
+    "swap_full_vs_fresh": 1.0309734513274336,
+    "ab_cos_full": 0.894715660015742,
+    "cd_cos": 0.7101647166411081
+  },
+  "5": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.9249029370148977,
+    "fresh_abc_seq_acc": 0.9133333333333333,
+    "swap_right_seq_acc": 0.87,
+    "swap_right_vs_fresh": 0.9525547445255474,
+    "fresh_abd_seq_acc": 0.8633333333333333,
+    "swap_full_seq_acc": 0.91,
+    "swap_full_vs_fresh": 1.0540540540540542,
+    "ab_cos_full": 0.9249029370148977,
+    "cd_cos": 0.759600390791893
+  }
+}

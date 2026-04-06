@@ -1,0 +1,18 @@
+{
+  "seed2": {
+    "n": 300,
+    "equal_length_fraction": 1.0,
+    "normal_frozen_acc": 0.8933333333333333,
+    "spliced_frozen_acc": 0.8933333333333333,
+    "agreement_rate": 1.0,
+    "splice_cost": 0.0
+  },
+  "seed3": {
+    "n": 300,
+    "equal_length_fraction": 1.0,
+    "normal_frozen_acc": 0.8933333333333333,
+    "spliced_frozen_acc": 0.8933333333333333,
+    "agreement_rate": 1.0,
+    "splice_cost": 0.0
+  }
+}

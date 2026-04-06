@@ -1,0 +1,67 @@
+{
+  "1": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.8891458388169606,
+    "fresh_abc_seq_acc": 0.9066666666666666,
+    "swap_right_seq_acc": 0.89,
+    "swap_right_vs_fresh": 0.9816176470588236,
+    "fresh_abd_seq_acc": 0.9066666666666666,
+    "swap_full_seq_acc": 0.9233333333333333,
+    "swap_full_vs_fresh": 1.0183823529411766,
+    "ab_cos_full": 0.8891458388169606,
+    "cd_cos": 0.6319465989867846
+  },
+  "2": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.8905338630080223,
+    "fresh_abc_seq_acc": 0.9133333333333333,
+    "swap_right_seq_acc": 0.9333333333333333,
+    "swap_right_vs_fresh": 1.0218978102189782,
+    "fresh_abd_seq_acc": 0.9033333333333333,
+    "swap_full_seq_acc": 0.9133333333333333,
+    "swap_full_vs_fresh": 1.011070110701107,
+    "ab_cos_full": 0.8905338630080223,
+    "cd_cos": 0.620950465798378
+  },
+  "3": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.881807067145904,
+    "fresh_abc_seq_acc": 0.8866666666666667,
+    "swap_right_seq_acc": 0.9133333333333333,
+    "swap_right_vs_fresh": 1.0300751879699248,
+    "fresh_abd_seq_acc": 0.8766666666666667,
+    "swap_full_seq_acc": 0.8833333333333333,
+    "swap_full_vs_fresh": 1.0076045627376424,
+    "ab_cos_full": 0.881807067145904,
+    "cd_cos": 0.7056779857476553
+  },
+  "4": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.8895210868120194,
+    "fresh_abc_seq_acc": 0.92,
+    "swap_right_seq_acc": 0.93,
+    "swap_right_vs_fresh": 1.0108695652173914,
+    "fresh_abd_seq_acc": 0.91,
+    "swap_full_seq_acc": 0.9333333333333333,
+    "swap_full_vs_fresh": 1.0256410256410255,
+    "ab_cos_full": 0.8895210868120194,
+    "cd_cos": 0.6600327482819557
+  },
+  "5": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.8707892334461212,
+    "fresh_abc_seq_acc": 0.93,
+    "swap_right_seq_acc": 0.9166666666666666,
+    "swap_right_vs_fresh": 0.9856630824372759,
+    "fresh_abd_seq_acc": 0.9066666666666666,
+    "swap_full_seq_acc": 0.92,
+    "swap_full_vs_fresh": 1.0147058823529413,
+    "ab_cos_full": 0.8707892334461212,
+    "cd_cos": 0.6734054615100225
+  }
+}

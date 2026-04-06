@@ -1,0 +1,157 @@
+{
+  "1": {
+    "freeze": {
+      "a_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.8133333333333334,
+        "frozen_seq_acc": 0.7933333333333333,
+        "seq_deg": -0.020000000000000018
+      },
+      "b_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.8166666666666667,
+        "frozen_seq_acc": 0.7266666666666667,
+        "seq_deg": -0.08999999999999997
+      }
+    },
+    "property_append": {
+      "n": 300,
+      "hybrid_pickup_pct": 0.8066666666666666,
+      "full_fresh_pickup_pct": 0.7866666666666666,
+      "base_contamination": 0.02,
+      "a_flags_preserved_pct": 1.0,
+      "b_flags_preserved_pct": 1.0,
+      "hybrid_pickup_a_side": 0.8066666666666666,
+      "hybrid_pickup_b_side": 0.8066666666666666
+    },
+    "attribution": {
+      "n": 300,
+      "seq_exact_match": 0.8966666666666666,
+      "token_accuracy": 0.9849025528410651
+    }
+  },
+  "2": {
+    "freeze": {
+      "a_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.8866666666666667,
+        "frozen_seq_acc": 0.89,
+        "seq_deg": 0.0033333333333332993
+      },
+      "b_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.9133333333333333,
+        "frozen_seq_acc": 0.8333333333333334,
+        "seq_deg": -0.07999999999999996
+      }
+    },
+    "property_append": {
+      "n": 300,
+      "hybrid_pickup_pct": 0.75,
+      "full_fresh_pickup_pct": 0.79,
+      "base_contamination": 0.016666666666666666,
+      "a_flags_preserved_pct": 1.0,
+      "b_flags_preserved_pct": 1.0,
+      "hybrid_pickup_a_side": 0.7533333333333333,
+      "hybrid_pickup_b_side": 0.7466666666666667
+    },
+    "attribution": {
+      "n": 300,
+      "seq_exact_match": 0.53,
+      "token_accuracy": 0.8893768871808949
+    }
+  },
+  "3": {
+    "freeze": {
+      "a_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.68,
+        "frozen_seq_acc": 0.76,
+        "seq_deg": 0.07999999999999996
+      },
+      "b_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.7066666666666667,
+        "frozen_seq_acc": 0.6833333333333333,
+        "seq_deg": -0.023333333333333317
+      }
+    },
+    "property_append": {
+      "n": 300,
+      "hybrid_pickup_pct": 0.5266666666666666,
+      "full_fresh_pickup_pct": 0.55,
+      "base_contamination": 0.02,
+      "a_flags_preserved_pct": 0.95,
+      "b_flags_preserved_pct": 0.95,
+      "hybrid_pickup_a_side": 0.56,
+      "hybrid_pickup_b_side": 0.49333333333333335
+    },
+    "attribution": {
+      "n": 300,
+      "seq_exact_match": 0.76,
+      "token_accuracy": 0.9571781498764754
+    }
+  },
+  "4": {
+    "freeze": {
+      "a_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.9166666666666666,
+        "frozen_seq_acc": 0.8833333333333333,
+        "seq_deg": -0.033333333333333326
+      },
+      "b_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.9033333333333333,
+        "frozen_seq_acc": 0.8566666666666667,
+        "seq_deg": -0.046666666666666634
+      }
+    },
+    "property_append": {
+      "n": 300,
+      "hybrid_pickup_pct": 0.5033333333333333,
+      "full_fresh_pickup_pct": 0.53,
+      "base_contamination": 0.01,
+      "a_flags_preserved_pct": 0.97,
+      "b_flags_preserved_pct": 0.97,
+      "hybrid_pickup_a_side": 0.54,
+      "hybrid_pickup_b_side": 0.4666666666666667
+    },
+    "attribution": {
+      "n": 300,
+      "seq_exact_match": 0.84,
+      "token_accuracy": 0.9489431786988746
+    }
+  },
+  "5": {
+    "freeze": {
+      "a_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.8866666666666667,
+        "frozen_seq_acc": 0.7766666666666666,
+        "seq_deg": -0.1100000000000001
+      },
+      "b_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.8433333333333334,
+        "frozen_seq_acc": 0.5533333333333333,
+        "seq_deg": -0.29000000000000004
+      }
+    },
+    "property_append": {
+      "n": 300,
+      "hybrid_pickup_pct": 0.6366666666666667,
+      "full_fresh_pickup_pct": 0.69,
+      "base_contamination": 0.016666666666666666,
+      "a_flags_preserved_pct": 0.95,
+      "b_flags_preserved_pct": 0.96,
+      "hybrid_pickup_a_side": 0.68,
+      "hybrid_pickup_b_side": 0.5933333333333334
+    },
+    "attribution": {
+      "n": 300,
+      "seq_exact_match": 0.7833333333333333,
+      "token_accuracy": 0.9703541037606368
+    }
+  }
+}

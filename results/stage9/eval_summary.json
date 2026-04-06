@@ -1,0 +1,89 @@
+{
+  "a_frozen_deg": 0.0,
+  "b_frozen_deg": 0.0,
+  "a_std": 0.0,
+  "b_std": 0.0,
+  "avg_deg": 0.0,
+  "by_seed": {
+    "1": {
+      "a_frozen_deg": 0.0,
+      "b_frozen_deg": 0.0,
+      "a_metrics": {
+        "n": 100,
+        "normal": 0.0,
+        "frozen": 0.0,
+        "degradation": 0.0
+      },
+      "b_metrics": {
+        "n": 100,
+        "normal": 0.0,
+        "frozen": 0.0,
+        "degradation": 0.0
+      }
+    },
+    "2": {
+      "a_frozen_deg": 0.0,
+      "b_frozen_deg": 0.0,
+      "a_metrics": {
+        "n": 100,
+        "normal": 0.0,
+        "frozen": 0.0,
+        "degradation": 0.0
+      },
+      "b_metrics": {
+        "n": 100,
+        "normal": 0.0,
+        "frozen": 0.0,
+        "degradation": 0.0
+      }
+    },
+    "3": {
+      "a_frozen_deg": 0.0,
+      "b_frozen_deg": 0.0,
+      "a_metrics": {
+        "n": 100,
+        "normal": 0.0,
+        "frozen": 0.0,
+        "degradation": 0.0
+      },
+      "b_metrics": {
+        "n": 100,
+        "normal": 0.0,
+        "frozen": 0.0,
+        "degradation": 0.0
+      }
+    },
+    "4": {
+      "a_frozen_deg": 0.0,
+      "b_frozen_deg": 0.0,
+      "a_metrics": {
+        "n": 100,
+        "normal": 0.0,
+        "frozen": 0.0,
+        "degradation": 0.0
+      },
+      "b_metrics": {
+        "n": 100,
+        "normal": 0.0,
+        "frozen": 0.0,
+        "degradation": 0.0
+      }
+    },
+    "5": {
+      "a_frozen_deg": 0.0,
+      "b_frozen_deg": 0.0,
+      "a_metrics": {
+        "n": 100,
+        "normal": 0.0,
+        "frozen": 0.0,
+        "degradation": 0.0
+      },
+      "b_metrics": {
+        "n": 100,
+        "normal": 0.0,
+        "frozen": 0.0,
+        "degradation": 0.0
+      }
+    }
+  }
+}

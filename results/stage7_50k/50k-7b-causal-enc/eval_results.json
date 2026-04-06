@@ -1,0 +1,197 @@
+{
+  "1": {
+    "freeze": {
+      "a_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.9433333333333334,
+        "normal_flags_acc": 0.9866666666666667,
+        "frozen_seq_acc": 0.9433333333333334,
+        "frozen_flags_acc": 0.9866666666666667,
+        "seq_deg": 0.0,
+        "flag_deg": 0.0,
+        "mean_cos_sim": 1.0000000168879828
+      },
+      "b_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.91,
+        "normal_flags_acc": 0.9566666666666667,
+        "frozen_seq_acc": 0.8033333333333333,
+        "frozen_flags_acc": 0.9033333333333333,
+        "seq_deg": 0.10666666666666669,
+        "flag_deg": 0.053333333333333344,
+        "mean_cos_sim": 0.8862467312812805
+      }
+    },
+    "property_append": {
+      "n": 300,
+      "hybrid_pickup_pct": 0.63,
+      "full_fresh_pickup_pct": 0.63,
+      "base_contamination": 0.006666666666666667,
+      "a_flags_preserved_pct": 0.9533333333333334,
+      "b_flags_preserved_pct": 0.9633333333333334,
+      "hybrid_pickup_a_side": 0.6533333333333333,
+      "hybrid_pickup_b_side": 0.6066666666666667
+    },
+    "attribution": {
+      "n": 300,
+      "seq_exact_match": 0.6833333333333333,
+      "token_accuracy": 0.9514136700521548
+    }
+  },
+  "2": {
+    "freeze": {
+      "a_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.9866666666666667,
+        "normal_flags_acc": 0.9866666666666667,
+        "frozen_seq_acc": 0.9866666666666667,
+        "frozen_flags_acc": 0.9866666666666667,
+        "seq_deg": 0.0,
+        "flag_deg": 0.0,
+        "mean_cos_sim": 0.9999999612569809
+      },
+      "b_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.9566666666666667,
+        "normal_flags_acc": 0.9566666666666667,
+        "frozen_seq_acc": 0.9466666666666667,
+        "frozen_flags_acc": 0.95,
+        "seq_deg": 0.010000000000000009,
+        "flag_deg": 0.00666666666666671,
+        "mean_cos_sim": 0.8931680242220561
+      }
+    },
+    "property_append": {
+      "n": 300,
+      "hybrid_pickup_pct": 0.6233333333333333,
+      "full_fresh_pickup_pct": 0.6233333333333333,
+      "base_contamination": 0.006666666666666667,
+      "a_flags_preserved_pct": 0.97,
+      "b_flags_preserved_pct": 0.97,
+      "hybrid_pickup_a_side": 0.6733333333333333,
+      "hybrid_pickup_b_side": 0.5733333333333334
+    },
+    "attribution": {
+      "n": 300,
+      "seq_exact_match": 0.67,
+      "token_accuracy": 0.9437276969530607
+    }
+  },
+  "3": {
+    "freeze": {
+      "a_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.9733333333333334,
+        "normal_flags_acc": 0.9733333333333334,
+        "frozen_seq_acc": 0.9733333333333334,
+        "frozen_flags_acc": 0.9733333333333334,
+        "seq_deg": 0.0,
+        "flag_deg": 0.0,
+        "mean_cos_sim": 0.9999999455610911
+      },
+      "b_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.97,
+        "normal_flags_acc": 0.97,
+        "frozen_seq_acc": 0.8333333333333334,
+        "frozen_flags_acc": 0.88,
+        "seq_deg": 0.1366666666666666,
+        "flag_deg": 0.08999999999999997,
+        "mean_cos_sim": 0.913025782306989
+      }
+    },
+    "property_append": {
+      "n": 300,
+      "hybrid_pickup_pct": 0.85,
+      "full_fresh_pickup_pct": 0.85,
+      "base_contamination": 0.023333333333333334,
+      "a_flags_preserved_pct": 1.0,
+      "b_flags_preserved_pct": 0.9933333333333333,
+      "hybrid_pickup_a_side": 0.8866666666666667,
+      "hybrid_pickup_b_side": 0.8133333333333334
+    },
+    "attribution": {
+      "n": 300,
+      "seq_exact_match": 0.66,
+      "token_accuracy": 0.9418062036782872
+    }
+  },
+  "4": {
+    "freeze": {
+      "a_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.9633333333333334,
+        "normal_flags_acc": 0.9633333333333334,
+        "frozen_seq_acc": 0.9633333333333334,
+        "frozen_flags_acc": 0.9633333333333334,
+        "seq_deg": 0.0,
+        "flag_deg": 0.0,
+        "mean_cos_sim": 1.0000000327825547
+      },
+      "b_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.9433333333333334,
+        "normal_flags_acc": 0.9433333333333334,
+        "frozen_seq_acc": 0.9033333333333333,
+        "frozen_flags_acc": 0.9033333333333333,
+        "seq_deg": 0.040000000000000036,
+        "flag_deg": 0.040000000000000036,
+        "mean_cos_sim": 0.8822475848595301
+      }
+    },
+    "property_append": {
+      "n": 300,
+      "hybrid_pickup_pct": 0.7433333333333333,
+      "full_fresh_pickup_pct": 0.7433333333333333,
+      "base_contamination": 0.0033333333333333335,
+      "a_flags_preserved_pct": 0.9333333333333333,
+      "b_flags_preserved_pct": 0.9333333333333333,
+      "hybrid_pickup_a_side": 0.7466666666666667,
+      "hybrid_pickup_b_side": 0.74
+    },
+    "attribution": {
+      "n": 300,
+      "seq_exact_match": 0.67,
+      "token_accuracy": 0.9434531979138073
+    }
+  },
+  "5": {
+    "freeze": {
+      "a_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.9866666666666667,
+        "normal_flags_acc": 0.9866666666666667,
+        "frozen_seq_acc": 0.9866666666666667,
+        "frozen_flags_acc": 0.9866666666666667,
+        "seq_deg": 0.0,
+        "flag_deg": 0.0,
+        "mean_cos_sim": 0.9999999870856603
+      },
+      "b_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.9566666666666667,
+        "normal_flags_acc": 0.9566666666666667,
+        "frozen_seq_acc": 0.8666666666666667,
+        "frozen_flags_acc": 0.9266666666666666,
+        "seq_deg": 0.08999999999999997,
+        "flag_deg": 0.030000000000000027,
+        "mean_cos_sim": 0.8835117093722026
+      }
+    },
+    "property_append": {
+      "n": 300,
+      "hybrid_pickup_pct": 0.7033333333333334,
+      "full_fresh_pickup_pct": 0.7033333333333334,
+      "base_contamination": 0.006666666666666667,
+      "a_flags_preserved_pct": 0.97,
+      "b_flags_preserved_pct": 0.97,
+      "hybrid_pickup_a_side": 0.7466666666666667,
+      "hybrid_pickup_b_side": 0.66
+    },
+    "attribution": {
+      "n": 300,
+      "seq_exact_match": 0.7333333333333333,
+      "token_accuracy": 0.9582761460334889
+    }
+  }
+}

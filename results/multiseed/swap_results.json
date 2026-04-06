@@ -1,0 +1,42 @@
+{
+  "seed1": {
+    "n": 300,
+    "equal_length_fraction": 1.0,
+    "normal_frozen_acc": 0.85,
+    "spliced_frozen_acc": 0.85,
+    "agreement_rate": 1.0,
+    "splice_cost": 0.0
+  },
+  "seed2": {
+    "n": 300,
+    "equal_length_fraction": 1.0,
+    "normal_frozen_acc": 0.9466666666666667,
+    "spliced_frozen_acc": 0.9466666666666667,
+    "agreement_rate": 1.0,
+    "splice_cost": 0.0
+  },
+  "seed3": {
+    "n": 300,
+    "equal_length_fraction": 1.0,
+    "normal_frozen_acc": 0.8966666666666666,
+    "spliced_frozen_acc": 0.8966666666666666,
+    "agreement_rate": 1.0,
+    "splice_cost": 0.0
+  },
+  "seed4": {
+    "n": 300,
+    "equal_length_fraction": 1.0,
+    "normal_frozen_acc": 0.8966666666666666,
+    "spliced_frozen_acc": 0.8966666666666666,
+    "agreement_rate": 1.0,
+    "splice_cost": 0.0
+  },
+  "seed5": {
+    "n": 300,
+    "equal_length_fraction": 1.0,
+    "normal_frozen_acc": 0.9466666666666667,
+    "spliced_frozen_acc": 0.9466666666666667,
+    "agreement_rate": 1.0,
+    "splice_cost": 0.0
+  }
+}

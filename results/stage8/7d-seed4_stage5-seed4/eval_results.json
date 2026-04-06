@@ -1,0 +1,36 @@
+{
+  "1": {
+    "freeze": {},
+    "property_append": {
+      "n": 300,
+      "hybrid_pickup_pct": 0.6,
+      "full_fresh_pickup_pct": 0.65,
+      "base_contamination": 0.006666666666666667,
+      "a_flags_preserved_pct": 1.0,
+      "b_flags_preserved_pct": 1.0,
+      "hybrid_pickup_a_side": 0.62,
+      "hybrid_pickup_b_side": 0.58
+    },
+    "attribution": {}
+  },
+  "2": {
+    "freeze": {},
+    "property_append": {},
+    "attribution": {}
+  },
+  "3": {
+    "freeze": {},
+    "property_append": {},
+    "attribution": {}
+  },
+  "4": {
+    "freeze": {},
+    "property_append": {},
+    "attribution": {}
+  },
+  "5": {
+    "freeze": {},
+    "property_append": {},
+    "attribution": {}
+  }
+}

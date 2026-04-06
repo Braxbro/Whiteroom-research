@@ -1,0 +1,101 @@
+{
+  "freeze": {
+    "a_frozen_deg": 0.0,
+    "b_frozen_deg": 0.0,
+    "avg": 0.0
+  },
+  "composition": {
+    "accuracy": 0.268
+  },
+  "attribution": {
+    "seq_exact_match": 0.9480000000000001,
+    "token_accuracy": 0.9905996758508915
+  },
+  "by_seed": {
+    "1": {
+      "freeze": {
+        "a_frozen_deg": 0.0,
+        "b_frozen_deg": 0.0,
+        "a_normal": 0.0,
+        "a_frozen": 0.0,
+        "b_normal": 0.0,
+        "b_frozen": 0.0
+      },
+      "composition": {
+        "accuracy": 0.32
+      },
+      "attribution": {
+        "seq_exact_match": 0.88,
+        "token_accuracy": 0.9675850891410048
+      }
+    },
+    "2": {
+      "freeze": {
+        "a_frozen_deg": 0.0,
+        "b_frozen_deg": 0.0,
+        "a_normal": 0.0,
+        "a_frozen": 0.0,
+        "b_normal": 0.0,
+        "b_frozen": 0.0
+      },
+      "composition": {
+        "accuracy": 0.28
+      },
+      "attribution": {
+        "seq_exact_match": 1.0,
+        "token_accuracy": 1.0
+      }
+    },
+    "3": {
+      "freeze": {
+        "a_frozen_deg": 0.0,
+        "b_frozen_deg": 0.0,
+        "a_normal": 0.0,
+        "a_frozen": 0.0,
+        "b_normal": 0.0,
+        "b_frozen": 0.0
+      },
+      "composition": {
+        "accuracy": 0.26
+      },
+      "attribution": {
+        "seq_exact_match": 0.94,
+        "token_accuracy": 0.993517017828201
+      }
+    },
+    "4": {
+      "freeze": {
+        "a_frozen_deg": 0.0,
+        "b_frozen_deg": 0.0,
+        "a_normal": 0.0,
+        "a_frozen": 0.0,
+        "b_normal": 0.0,
+        "b_frozen": 0.0
+      },
+      "composition": {
+        "accuracy": 0.24
+      },
+      "attribution": {
+        "seq_exact_match": 0.96,
+        "token_accuracy": 0.9967585089141004
+      }
+    },
+    "5": {
+      "freeze": {
+        "a_frozen_deg": 0.0,
+        "b_frozen_deg": 0.0,
+        "a_normal": 0.0,
+        "a_frozen": 0.0,
+        "b_normal": 0.0,
+        "b_frozen": 0.0
+      },
+      "composition": {
+        "accuracy": 0.24
+      },
+      "attribution": {
+        "seq_exact_match": 0.96,
+        "token_accuracy": 0.9951377633711507
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "2": {
+    "freeze": {
+      "a_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.9866666666666667,
+        "normal_flags_acc": 0.9866666666666667,
+        "frozen_seq_acc": 0.99,
+        "frozen_flags_acc": 1.0,
+        "seq_deg": -0.0033333333333332993,
+        "flag_deg": -0.013333333333333308,
+        "mean_cos_sim": 0.8930368689199288
+      },
+      "b_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.9566666666666667,
+        "normal_flags_acc": 0.9566666666666667,
+        "frozen_seq_acc": 0.9233333333333333,
+        "frozen_flags_acc": 0.9233333333333333,
+        "seq_deg": 0.033333333333333326,
+        "flag_deg": 0.033333333333333326,
+        "mean_cos_sim": 0.8777991191546122
+      }
+    },
+    "property_append": {
+      "n": 300,
+      "hybrid_pickup_pct": 0.7333333333333333,
+      "full_fresh_pickup_pct": 0.8,
+      "base_contamination": 0.016666666666666666,
+      "a_flags_preserved_pct": 1.0,
+      "b_flags_preserved_pct": 1.0,
+      "hybrid_pickup_a_side": 0.74,
+      "hybrid_pickup_b_side": 0.7266666666666667
+    },
+    "attribution": {
+      "n": 300,
+      "seq_exact_match": 1.0,
+      "token_accuracy": 1.0
+    }
+  },
+  "3": {
+    "freeze": {
+      "a_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.98,
+        "normal_flags_acc": 0.98,
+        "frozen_seq_acc": 0.9133333333333333,
+        "frozen_flags_acc": 0.9133333333333333,
+        "seq_deg": 0.06666666666666665,
+        "flag_deg": 0.06666666666666665,
+        "mean_cos_sim": 0.8129564381639163
+      },
+      "b_frozen": {
+        "n": 300,
+        "normal_seq_acc": 0.9566666666666667,
+        "normal_flags_acc": 0.9566666666666667,
+        "frozen_seq_acc": 0.88,
+        "frozen_flags_acc": 0.88,
+        "seq_deg": 0.07666666666666666,
+        "flag_deg": 0.07666666666666666,
+        "mean_cos_sim": 0.7974416631460189
+      }
+    },
+    "property_append": {
+      "n": 300,
+      "hybrid_pickup_pct": 0.5266666666666666,
+      "full_fresh_pickup_pct": 0.5733333333333334,
+      "base_contamination": 0.013333333333333334,
+      "a_flags_preserved_pct": 0.97,
+      "b_flags_preserved_pct": 0.97,
+      "hybrid_pickup_a_side": 0.5933333333333334,
+      "hybrid_pickup_b_side": 0.46
+    },
+    "attribution": {
+      "n": 300,
+      "seq_exact_match": 0.9966666666666667,
+      "token_accuracy": 0.9994510019214933
+    }
+  }
+}

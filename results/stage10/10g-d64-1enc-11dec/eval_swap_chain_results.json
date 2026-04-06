@@ -1,0 +1,67 @@
+{
+  "1": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.9885241017738978,
+    "fresh_abc_seq_acc": 0.43666666666666665,
+    "swap_right_seq_acc": 0.5166666666666667,
+    "swap_right_vs_fresh": 1.183206106870229,
+    "fresh_abd_seq_acc": 0.43,
+    "swap_full_seq_acc": 0.4633333333333333,
+    "swap_full_vs_fresh": 1.0775193798449612,
+    "ab_cos_full": 0.9885241017738978,
+    "cd_cos": 0.42548710537453494
+  },
+  "2": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.9886082845926285,
+    "fresh_abc_seq_acc": 0.36333333333333334,
+    "swap_right_seq_acc": 0.44,
+    "swap_right_vs_fresh": 1.2110091743119267,
+    "fresh_abd_seq_acc": 0.37333333333333335,
+    "swap_full_seq_acc": 0.43,
+    "swap_full_vs_fresh": 1.1517857142857142,
+    "ab_cos_full": 0.9886082845926285,
+    "cd_cos": 0.3907653628538052
+  },
+  "3": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.988728691538175,
+    "fresh_abc_seq_acc": 0.39666666666666667,
+    "swap_right_seq_acc": 0.4633333333333333,
+    "swap_right_vs_fresh": 1.1680672268907564,
+    "fresh_abd_seq_acc": 0.41333333333333333,
+    "swap_full_seq_acc": 0.43,
+    "swap_full_vs_fresh": 1.0403225806451613,
+    "ab_cos_full": 0.988728691538175,
+    "cd_cos": 0.39312522371610004
+  },
+  "4": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.9877541204293568,
+    "fresh_abc_seq_acc": 0.3933333333333333,
+    "swap_right_seq_acc": 0.41333333333333333,
+    "swap_right_vs_fresh": 1.0508474576271187,
+    "fresh_abd_seq_acc": 0.4266666666666667,
+    "swap_full_seq_acc": 0.43666666666666665,
+    "swap_full_vs_fresh": 1.0234375,
+    "ab_cos_full": 0.9877541204293568,
+    "cd_cos": 0.4200708091259003
+  },
+  "5": {
+    "n": 300,
+    "n_failed": 0,
+    "ab_cos_across_partners": 0.9895405928293864,
+    "fresh_abc_seq_acc": 0.4066666666666667,
+    "swap_right_seq_acc": 0.45666666666666667,
+    "swap_right_vs_fresh": 1.1229508196721312,
+    "fresh_abd_seq_acc": 0.37,
+    "swap_full_seq_acc": 0.41,
+    "swap_full_vs_fresh": 1.1081081081081081,
+    "ab_cos_full": 0.9895405928293864,
+    "cd_cos": 0.3753861783444881
+  }
+}
