@@ -8,11 +8,11 @@ It didn't.
 
 ## Repo Structure
 
-`checkpoints/` - Model checkpoints I don't expect to be easily reproduceable. Currently only includes Stage 4b, seed 4 - the 'jackpot seed' that motivated many further stages of research chasing append-to-frozen capability.
-`docs/` - A number of writeups, including records of frontier model predictions, an early lit review from Opus, the initial research context and specifications, and 16 findings files. (Sorry. I got carried away. It was a fun week.) `model-specs.md` can also be found here, containing the hyperparameters of all the models trained.
-`results/` - Raw JSON eval results.
-`scripts/` - The scripts Sonnet made for model training, evaluation, and debugging.
-`whiteroom/` - The main Whiteroom Python package implementing the synthetic domain and common utilities between each stage.
+- `checkpoints/` - Model checkpoints I don't expect to be easily reproduceable. Currently only includes Stage 4b, seed 4 - the 'jackpot seed' that motivated many further stages of research chasing append-to-frozen capability.
+- `docs/` - A number of writeups, including records of frontier model predictions, an early lit review from Opus, the initial research context and specifications, and 16 findings files. (Sorry. I got carried away. It was a fun week.) `model-specs.md` can also be found here, containing the hyperparameters of all the models trained.
+- `results/` - Raw JSON eval results.
+- `scripts/` - The scripts Sonnet made for model training, evaluation, and debugging.
+- `whiteroom/` - The main Whiteroom Python package implementing the synthetic domain and common utilities between each stage.
 
 ## How to Reproduce
 
@@ -20,7 +20,7 @@ Requires PyTorch. Training scripts are in `scripts/stage{n}/`. Each stage (excep
 
 Eval scripts are in `scripts` and `scripts/eval/` - see `docs/model-specs.md` for exact hyperparams per stage.
 
-## AI Use Acknowledgement & Licensing
+## AI Use Acknowledgement
 
 The code used for this project was generated using Claude Sonnet 4.6 using Claude Code. Research methodology was designed alongside suggestions from Claude Opus 4.6 using Claude.ai. This research was spurred by a discussion with Claude Haiku using Claude.ai after I expressed confusion why prefix caching was standard, which led to a tangent into theoretical segmented/partitioned caching.
 
