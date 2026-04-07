@@ -76,7 +76,7 @@ No new training. Probes existing checkpoints (Stage 2, Stage 5) to characterize 
 
 Freeze 7d (best isolation) and Stage5 (best composition). Train only a small projection layer between them. **Linear projection: 62.3% composition, 95.1% attribution, perfect isolation. MLP: 64.5% / 95.0%.** Best isolation+composition numbers in the project. Also surfaces a numerical stability issue in frozen dropout during eval — fixed by `fix_stage9_checkpoints.py`.
 
-→ Results: [results/stage8/](../results/stage8/) 
+→ Results: [results/stage8/](../results/stage8/) · Script: [scripts/fix_stage9_checkpoints.py](../scripts/fix_stage9_checkpoints.py)
 
 ---
 
@@ -85,7 +85,7 @@ Freeze 7d (best isolation) and Stage5 (best composition). Train only a small pro
 
 Replaces the frozen+projection approach with an end-to-end 3-stage architecture (encoder → adaptation layer → decoder), all trained jointly with block-diagonal masking. Catastrophic failure: 23.5% composition, attribution collapses to 6.5%, isolation perfects. Root cause: the adaptation layer is captured by whichever component learns fastest, preventing co-adaptation between encoder and decoder.
 
-→ Results: [results/stage9/](../results/stage9/), [results/stage9b/](../results/stage9b/), [results/stage9c/](../results/stage9c/) · Script: [scripts/fix_stage9_checkpoints.py](../scripts/fix_stage9_checkpoints.py)
+→ Results: [results/stage9/](../results/stage9/), [results/stage9b/](../results/stage9b/), [results/stage9c/](../results/stage9c/)
 
 ---
 
